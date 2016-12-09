@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PhotoViewer</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="share">share</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="search">URL or keyword Korea</string>
+
+    <string name="download">이미지 다운로드</string>
+    <string name="processing">프로세싱... </string>
+    <string name="loading">로드 프로세스 중... </string>
+    <string name="error">오류</string>
+    <string name="result">결과</string>
+    <string name="empty">결과 없음</string>
+    <string name="input_error">유효한 keyword 이나 url를 입력해 주시기 바랍니다 </string>
+
+    <string name="setting_language">언어</string>
+
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+
+    <string name="title_share">이미지 공유</string>
+
+    <string name="title_save">저장</string>
+    <string name="title_save_msg">이미지 이름</string>
+    <string name="btn_yes">네</string>
+    <string name="btn_no">아니오</string>
+    <string name="title_save_error">유효한 이미지의 이름를 입력해 주시기 바랍니다 </string>
+    <string-array name="language">
+        <item>English</item>
+        <item>한국어</item>
+    </string-array>
+</resources>
