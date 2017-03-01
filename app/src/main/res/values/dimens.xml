@@ -8,4 +8,7 @@
     <dimen name="icon_actionbar_margin">10dp</dimen>
     <dimen name="action_bar_padding">5dp</dimen>
     <dimen name="item_size">100dp</dimen>
+
+    <dimen name="btn_ip_w">100dp</dimen>
+    <dimen name="btn_ip_h">60dp</dimen>
 </resources>

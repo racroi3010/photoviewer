@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ptv.cookpad.com.photoviewer">
+    package="ptv.me.com.photoviewer">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
@@ -13,8 +13,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:name=".PhotoApplication"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".activity.HomeActivity">
+        <activity android:name="ptv.me.com.photoviewer.activity.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,15 +23,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.ViewActivity"
+            android:name="ptv.me.com.photoviewer.activity.ViewActivity"
             android:label="@string/title_activity_view"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="ptv.me.com.photoviewer.activity.SettingActivity"
             android:label="@string/title_activity_setting"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".activity.EditActivity"
+            android:name="ptv.me.com.photoviewer.activity.EditActivity"
             android:label="@string/title_activity_edit"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

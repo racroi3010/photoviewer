@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PhotoViewer</string>
+    <string name="app_name">나임 PhotoViewer</string>
     <string name="title_activity_view">ViewActivity</string>
     <string name="share">share</string>
     <string name="title_activity_home">HomeActivity</string>

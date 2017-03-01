@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ptv.cookpad.com.photoviewer.activity.EditActivity"
+    tools:context="ptv.me.com.photoviewer.activity.EditActivity"
     tools:showIn="@layout/activity_edit">
     <ImageView
         android:id="@+id/img_view"
@@ -31,6 +31,7 @@
             android:onClick="onClick"
             android:layout_marginBottom="@dimen/icon_actionbar_margin"
             android:background="@drawable/btn_rotate_left"
+            android:visibility="gone"
             />
         <Button
             android:id="@+id/btn_rotate_right"
@@ -39,6 +40,34 @@
             android:gravity="center"
             android:onClick="onClick"
             android:background="@drawable/btn_rotate_right"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/btn_hist_denoising"
+            android:layout_width="@dimen/btn_ip_w"
+            android:layout_height="@dimen/btn_ip_h"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Denoising"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/btn_hist_equalize"
+            android:layout_width="@dimen/btn_ip_w"
+            android:layout_height="@dimen/btn_ip_h"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Equalization"
+            android:textColor="#000000"
+            />
+        <Button
+            android:id="@+id/btn_face_detect"
+            android:layout_width="@dimen/btn_ip_w"
+            android:layout_height="@dimen/btn_ip_h"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="Face Detection"
+            android:textColor="#000000"
             />
     </LinearLayout>
 </RelativeLayout>
